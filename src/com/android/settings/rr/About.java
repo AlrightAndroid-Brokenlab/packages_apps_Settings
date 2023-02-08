@@ -110,7 +110,9 @@ private static final String RR_ROM_SHARE = "share";
         addPreferencesFromResource(R.xml.about_rom);
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getContentResolver();
+        mSiteUrl = findPreference("rr_website");
         mSourceUrl = findPreference("rr_source");
+        mFacebookUrl = findPreference("rr_facebook");
         mDonateUrl = findPreference("rr_donate");
         mTelegramUrl = findPreference("rr_tg");
         PreferenceGroup devsGroup = (PreferenceGroup) findPreference("devs");
@@ -136,11 +138,15 @@ private static final String RR_ROM_SHARE = "share";
 
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mSiteUrl) {
-            launchUrl("https://github.com/AlrightAndroid");
+            launchUrl("http://resurrectionremix.com/");
+        } else if (preference == mSourceUrl) {
+            launchUrl("https://github.com/ResurrectionRemix-Revived");
         } else if (preference == mFacebookUrl) {
-            launchUrl("https://www.buymeacoffee.com/batuhantrkgl");
+            launchUrl("https://www.facebook.com/resurrectionremixrom");
+        } else if (preference == mDonateUrl) {
+            launchUrl("https://paypal.me/varundate");
         }  else if (preference == mTelegramUrl) {
-            launchUrl("https://t.me/alrightteam_chat");
+            launchUrl("https://t.me/resurrectionremixchat");
         } else if (preference.getKey().equals(RR_ROM_SHARE)) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);
