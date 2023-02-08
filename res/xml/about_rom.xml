@@ -101,7 +101,7 @@
             android:title="Batuhan"
             android:icon="@drawable/rr_dev_one_icon"
             android:summary="@string/batuhan_summary"
-            resurrection:nameDev="batuhantrkgl" />
+            resurrection:nameDev="batuhantrkgl"
         </PreferenceCategory> 
 
         <PreferenceCategory
