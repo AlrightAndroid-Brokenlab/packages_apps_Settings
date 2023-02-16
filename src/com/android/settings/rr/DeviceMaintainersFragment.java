@@ -36,7 +36,7 @@ public class DeviceMaintainersFragment extends SettingsPreferenceFragment implem
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.device_maintainers_fragment);
+//        addPreferencesFromResource(R.xml.device_maintainers_fragment);
     }
 
     @Override
@@ -54,7 +54,7 @@ public class DeviceMaintainersFragment extends SettingsPreferenceFragment implem
                 ArrayList<SearchIndexableResource> result =
                     new ArrayList<SearchIndexableResource>();
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.device_maintainers_fragment;
+//                    sir.xmlResId = R.xml.device_maintainers_fragment;
                     result.add(sir);
                     return result;
             }
