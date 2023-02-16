@@ -344,7 +344,7 @@
     <string name="rr_version_default">Unknown</string>
     <string name="keywords_rr_version">AlrightOS version</string>
     <string name="rr_info_title">AlrightOS Version</string>
-    <string name="rr_info_summary" translatable="false">Beta 0.1</string>
+    <string name="rr_info_summary" translatable="false">Beta 0.2</string>
 
     <!-- Share RR ROM -->
     <string name="share_rr">Share</string>
