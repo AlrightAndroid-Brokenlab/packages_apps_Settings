@@ -44,6 +44,15 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.RRVersionDetailPreferenceController"/>
+  
+      <!-- AlrightAndroid maintainer -->
+    <Preference
+         android:key="aos_maintainer"
+         android:title="@string/aos_maintainer"
+         android:summary="@string/summary_placeholder"
+         settings:enableCopying="true"
+         settings:controller="com.android.settings.deviceinfo.firmwareversion.YukiMaintainerPreferenceController"/>
+
 
     <!-- Lineage API version -->
     <Preference
