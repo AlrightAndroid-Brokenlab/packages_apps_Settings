@@ -344,12 +344,12 @@
     <string name="rr_version_default">Unknown</string>
     <string name="keywords_rr_version">AlrightOS version</string>
     <string name="rr_info_title">AlrightOS Version</string>
-    <string name="rr_info_summary" translatable="false">Beta 0.2</string>
+    <string name="rr_info_summary" translatable="false">Beta 0.3</string>
 
     <!-- Share RR ROM -->
     <string name="share_rr">Share</string>
     <string name="share_rr_summary">Let people know you use AlrightOS</string>
-    <string name="share_message">Try AlrightOS! t.me/</string>
+    <string name="share_message">Try AlrightOS! t.me/AlrightOS</string>
     <string name="share_chooser_title">Share AlrightOS via...</string>
 
     <!-- RR Changelog-->
